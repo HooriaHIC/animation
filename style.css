@@ -1,0 +1,60 @@
+.img-holder{
+	position: relative;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    display: block;
+    overflow: visible;
+    width: 30%;
+    height: auto;
+    margin: 10rem auto 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 0 auto;
+}
+
+#piece {
+    transition: all 1.3s cubic-bezier(0.71, 0.34, 0.13, 0.92);
+}
+
+.piece-1 {
+    position: absolute;
+    left: 44px;
+    top: 5px;
+    right: 0px;
+    bottom: 0px;
+    width: 100%;
+    transform: rotate(15deg);
+}
+
+.piece-2 {
+    position: absolute;
+    left: -50px;
+    top: -37px;
+    right: 0px;
+    bottom: 0px;
+    width: 100%;
+    transform: rotate(7deg);
+}
+
+.piece-3 {
+    position: absolute;
+    left: 0px;
+    top: 69px;
+    right: 0px;
+    bottom: 0px;
+    transform: rotate(12deg);
+    width: 100%;
+}
+
+
+/* only for testing */
+
+.text-container {
+    width: 60%;
+    position: absolute;
+    top: 70vh;
+    left: 50%;
+    transform: translateX(-50%);
+}
